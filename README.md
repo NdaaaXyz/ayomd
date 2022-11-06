@@ -1,21 +1,17 @@
-# NdaaBotz-MD
-#### Thanks To 
-**Allah SWT**,
-
-**Orang Tua**,
-
-**All Team Bot Discussion**,
-
-**Semua yang selalu mendukung**
+#Thanks To
+**Ndaa ( Dev Sc )**
+**Dikz ( Staff NdaaBotz Helper Full )**
+**NdaaBotz-Team**
+And User NdaaBotz:)
 
 
-##### Special Thanks to
+#####Thanks to
 [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo)
 [![BochilGaming](https://github.com/BochilGaming.png?size=100)](https://github.com/BochilGaming)
 
 ##### Penulis Ulang
 [![Fokus ID](https://github.com/fokusdotid.png?size=100)](https://github.com/fokusdotid)
-[![Ndaa](https://github.com/Kayyyzenn.png?size=100)](https://github.com/Kayyyzenn)
+[![Ndaa](https://github.com/Nurutomo.png?size=100)](https://github.com/Kayyyzenn)
 [![Ndaa22](https://github.com/Nurutomo.png?size=100)](https://github.com/Ndaa22)
 ##### Collaborator
 
