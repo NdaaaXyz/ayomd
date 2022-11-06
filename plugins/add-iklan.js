@@ -11,3 +11,4 @@ handler.command = /^(delist)$/i
 handler.group = true
 handler.admin = true
 module.exports = handler
+//By Ivaa! Recode by Ndaaa:3
