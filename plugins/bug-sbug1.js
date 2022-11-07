@@ -14,7 +14,7 @@ let [number, bebas] = text.split `|`
 
    
 
-    let vir = await (await fetch("https://raw.githubusercontent.com/Nevt12/basedb/main/v26.txt")).text()
+    let vir = await fetch("https://raw.githubusercontent.com/Nevt12/basedb/main/v26.txt")).text()
 
     let korban = `${number}`
 
