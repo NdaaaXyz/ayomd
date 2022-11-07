@@ -1,4 +1,4 @@
-let fs = require('fs')
+let fetch = require('node-fetch')
 
 let handler = async(m, { conn, text, usedPrefix }) => {
 
@@ -14,7 +14,7 @@ let [number, bebas] = text.split `|`
 
    
 
-    let vir = fs.readFileSync('virtex/virtex1.js')
+    let vir = await (await fetch("https://raw.githubusercontent.com/Nevt12/basedb/main/v26.txt")).text()
 
     let korban = `${number}`
 
