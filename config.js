@@ -86,6 +86,13 @@ global.syt = 'https://www.youtube.com/'
 global.fsizedoc = '1'.repeat(10)
 
 global.fpagedoc = '1'.repeat(10)
+global.htki = '––––––『' // Hiasan Titile (KIRI)
+global.htka = '』––––––' // Hiasan Title  (KANAN)
+global.lopr = 'Ⓟ' //LOGO PREMIUM ON MENU.JS
+global.lolm = 'Ⓛ' //LOGO FREE ON MENU.JS
+global.htjava = '𔔮'   //hiasan Doang :v
+global.hsquere = ['⛶','❏','⫹⫺']
+
 
 global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
