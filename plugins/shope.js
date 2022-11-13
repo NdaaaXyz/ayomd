@@ -1,5 +1,5 @@
 let fetch = require('node-fetch')
-let handler = async (m, {conn, text,}) => {
+let handler = async (m, {conn, text}) => {
 if (!text) throw `Cari apa?`
 let res = await fetch('https://leyscoders-api.herokuapp.com/api/shopee?q=${text}&apikey=MIMINGANZ')
 let bang = await res.json()
