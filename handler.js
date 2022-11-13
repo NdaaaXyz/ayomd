@@ -577,8 +577,7 @@ module.exports = {
                             }
                         }
                         if (m.limit) m.reply(+ m.limit + ' Limit terpakai')
-                        //jika risih matiin aja
-                        if (user.registered == false) throw `daftar dulu sebelum menggunakan bot\nDaftar dengan mengetik /daftar`
+                        //jika risih matiin aja 
                     }
                     break
                 }
