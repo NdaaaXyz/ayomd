@@ -4,7 +4,7 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
   let user = global.db.data.users[m.sender]
   let name = conn.getName(m.sender)
   if (user.registered === true) throw `Kamu sudah terdaftar\nMau daftar ulang? ${usedPrefix}unreg <SERIAL NUMBER>`
-  /*if (!Reg.test(text)) throw `contoh:\n*${usedPrefix + command} NdaaBotz@gmail.com.16*`*/
+  /*if (!Reg.test(text)) throw `contoh:\n*${usedPrefix + command} Nama|Email|Umur*`*/
   let urut = text.split`|`
 
   let text0 = urut[0]
@@ -12,8 +12,9 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
   let text1 = urut[1]
 
   let text2 = urut[2]
-  if (!text0) throw 'Nama tidak boleh kosong (Alphanumeric)'
-  if (!text) throw 'Umur tidak boleh kosong (Angka)'
+  if (!text0) throw 'Penggunaan salah!\n\ncontoh ${usedPrefix}daftar Nama|email|umur'
+  if (!text1) throw 'Penggunaan salah!\n\ncontoh ${usedPrefix}daftar Nama|email|umur'
+  if (!text2) throw 'Penggunaan salah!\n\ncontoh ${usedPrefix}daftar Nama|email|umur'
   /*age = parseInt(age)
   if (age > 50) throw 'Umur terlalu tua'
   if (age < 5) throw 'Bayi bisa ngetik sesuai format bjir ._., tapi gatau juga bocil skrg epic² pasti anak ngen ngep:v'*/
