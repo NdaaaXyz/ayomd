@@ -18,8 +18,8 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
   /*age = parseInt(age)
   if (age > 50) throw 'Umur terlalu tua'
   if (age < 5) throw 'Bayi bisa ngetik sesuai format bjir ._., tapi gatau juga bocil skrg epic² pasti anak ngen ngep:v'*/
-  user.name = text1
-  user.email = text0
+  user.name = text0
+  user.email = text1
   user.age = text2
   user.regTime = + new Date
   user.registered = true
@@ -27,8 +27,8 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
   let sn = createHash('md5').update(m.sender).digest('hex')
   conn.sendButton(m.chat, `
 ┌─「 *daftar berhasil* 」
-├ Nama: ${text1}
-├ Email: ${text0}
+├ Nama: ${text0}
+├ Email: ${text1}
 ├ Umur: ${text2} Tahun
 └────  
 
