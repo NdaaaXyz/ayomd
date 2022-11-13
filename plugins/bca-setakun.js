@@ -13,7 +13,9 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
   
   let text3 = urut[2]
   
-  //if (args[0]) throw `Penggunaan salah! contoh ${usedPrefix}setakun Nama|Password|Pin`
+  if (!text1) throw `Pengunaan salah contoh ${usedPrefix}setakun nama|password|pin`
+  if (!text2) throw `Pengunaan salah contoh ${usedPrefix}setakun nama|password|pin`
+  if (!text3) throw `Pengunaan salah contoh ${usedPrefix}setakun nama|password|pin`
 
   user.bca = true
   user.bcapw = text2
